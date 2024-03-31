@@ -1,84 +1,33 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Your Website Title</title>
-<style>
-  /* Edmonton's Visual Identity Colors */
-  --city-blue: #005087;
-  --dark-blue: #193A5A;
-  --medium-blue: #0081BC;
-  --orange: #E1853E;
-  --yellow: #F4D043;
-  --red: #CF464D;
-  --green: #66B677;
-  --black: #444444;
-  --dark-shade: #B6D0E2;
-  --medium-shade: #D0E0EA;
-  --light-shade: #F3F4F5;
-
-  /* Basic styling */
-  body {
-    font-family: Arial, sans-serif;
-    background-color: var(--light-shade);
-    color: var(--black);
-  }
-  header {
-    background-color: var(--city-blue);
-    color: white;
-    padding: 1em 0;
-    text-align: center;
-  }
-  nav {
-    background: var(--dark-blue);
-    padding: 0.5em;
-  }
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  nav ul li {
-    display: inline;
-    margin-right: 1em;
-  }
-  nav ul li a {
-    color: white;
-    text-decoration: none;
-  }
-  main {
-    margin: 1em;
-  }
-  footer {
-    background-color: var(--medium-blue);
-    color: white;
-    text-align: center;
-    padding: 1em 0;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
-</style>
+<title>City Website</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header>
-  <h1>Your Website Name</h1>
+  <h1>City Name</h1>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 </header>
-<nav>
-  <ul>
-    <li><a href="#">Home</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Services</a></li>
-    <li><a href="#">Contact</a></li>
-  </ul>
-</nav>
-<main>
-  <h2>Welcome to Your Website</h2>
-  <p>This is a placeholder paragraph. Replace this text with your own content.</p>
+<main id="home">
+  <section>
+    <h2>Welcome to Our City</h2>
+    <p>Discover the beauty, culture, and vibrant community of our city.</p>
+  </section>
+  <!-- Add more sections as needed -->
 </main>
 <footer>
-  <p>Copyright © Your Year. All Rights Reserved.</p>
+  <p>© 2024 City Name. All rights reserved.</p>
 </footer>
 </body>
 </html>
